@@ -9,31 +9,37 @@
   <link href='assets/css/style.css' rel='stylesheet'>
 </head>
 <body>
-  <!-- Card -->
-  <div id="card">
-    <div id="card-inside">
-      <div class="wrap">
-        <p>It's been a enjoyable experience since i came here. 
-           We've been through a lot of ups and downs, 
-           survived from unforseen events to reach what we are right now.
-        </p>
-        <p>Thank you so much for all the invaluable supports and advices that u gave me.
-           It means so much for me. May the god bless you with wonderful journeys to come.
-           Till we meet again, partner.
-        </p>
-        <p>Respectfully, <br>Keenan </p>
-      </div>
-    </div>
-
-    <div id="card-front">
-      <div class="wrap">
-        <h1>Till Our Paths <br> Cross Again</h1>
-      </div>
-      <button id="open">&gt;</button>
-      <button id="close">&lt;</button>
-    </div>
-  </div>
-  <!-- External links -->
+  <!-- Card Begins -->
+  <div class="card">
+		<div class="imgBox">
+			<div class="bark"></div>
+			<img id="animate" style="width: 100%;" src="assets/img/GoodLuckNun.gif"/>
+		</div>
+		<div class="details">
+			<h4 class="color1" style="transform: rotate(-10deg);">Dear Mba Ainun,</h4>
+			<p>
+        It's been lovely days since i came here. <br>
+        We've been through a lot of ups and downs, <br>
+        survived from unforseen events to reach <br>
+        where we are right now.
+     </p>
+     <p>
+        Thank you for all the invaluable supports <br>
+        and advices. It means so much for me. <br>
+        May the god bless you with wonderful <br>
+        journeys to come.
+     </p>
+     <p>Respectfully, <br>Keenan </p>
+		</div>
+	</div>
+  <!-- Card Ends -->
+  <!-- Interal links -->
+  <script type="text/javascript">  
+    var image = new Image();
+    image.src = "assets/img/GoodLuckNun.gif";
+    var imgElement = document.getElementById("animate"); 
+    imgElement.src = image.src;
+  </script>
   <script defer type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>

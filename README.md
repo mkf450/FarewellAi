@@ -29,3 +29,11 @@ This project is licensed under the [MIT License](LICENSE).
 - Updated mobile views
 - Prepared to be reviewed by designers
 
+## [1.1.0](https://github.com/mkf450/FarewellAi/commit/a38fe4e60ddc4a8eaa5022615815e936f9b35cc3) (2024-07-31)
+
+**Updates:**
+
+- Updated readme
+- Updated images on mobile and desktop views
+- Checked and Reviewed the image loader for gif files
+
